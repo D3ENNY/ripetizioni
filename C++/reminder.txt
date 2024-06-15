@@ -1,0 +1,1 @@
+per compilare con g++ su linux specificando la versione 20 (per esempio per usare std::format) usare la flag -std=c++20
