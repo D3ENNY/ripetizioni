@@ -14,7 +14,7 @@
 
     std::cout << "il perimetro del rettangolo è: " + std::to_string(perimetro) + "\nl'area invece è:" + std::to_string(area) << std::endl;
     std::cout << "il perimetro del rettangolo è: " << perimetro << "\nl'area invece è:" << area << std::endl;
-    //std::cout << std::format("Il perimetro del rettagono è: {}\nl'area invece è: {}", perimetro, area) << std::endl;
+    std::cout << std::format("Il perimetro del rettagono è: {}\nl'area invece è: {}", perimetro, area) << std::endl;
 
     return 0;
  }
