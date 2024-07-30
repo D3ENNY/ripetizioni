@@ -42,6 +42,7 @@ for i in range(int(n)):
                 matrice[i].append(0)
             else:
                 matrice[i].append(1)
+                
     else: 
         for _ in range(int(n)):
             lenght = len(matrice[i])
