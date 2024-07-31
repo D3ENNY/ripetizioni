@@ -28,7 +28,7 @@ class Studente(Persona):
     def saluta(self): #overrite
         print(f"ciao, mi chiamo {self._name} e frequento la scuola {self.__school_name}")
 
-if __name__ == '__main__':
+if __name__ == '__main__': # ingresso principale programma
     
     p = Persona("Paolo")
     p.saluta()
