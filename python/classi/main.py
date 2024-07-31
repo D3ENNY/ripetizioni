@@ -3,6 +3,7 @@
 # polimorfismo
 # incapsulamento
 
+import second
 
 class Persona:
     
@@ -33,10 +34,16 @@ if __name__ == '__main__': # ingresso principale programma
     p = Persona("Paolo")
     p.saluta()
     #p.__lavorare()
-     
+    
+    print()
     
     s = Studente("Paolo", "Cornaro")
     s.saluta()
+    
+    print()
+    
+    classe_esterna = second.Second()
+    classe_esterna.method()
     
     # FORMATTED STRING
     str1 = "ciao"
