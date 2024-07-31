@@ -9,9 +9,13 @@ class Persona:
     def __init__(self, name): 
         print("esegue il costruttore di Persona")
         self._name = name
+        self.__lavorare() #chiamata a metodo privato
     
     def saluta(self): 
         print(f"ciao {self._name}")
+        
+    def __lavorare(self): 
+        print(f"{self._name} sta lavorando")
         
     
        
@@ -28,6 +32,7 @@ if __name__ == '__main__':
     
     p = Persona("Paolo")
     p.saluta()
+    #p.__lavorare()
      
     
     s = Studente("Paolo", "Cornaro")
