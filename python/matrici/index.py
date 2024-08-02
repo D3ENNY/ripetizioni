@@ -87,10 +87,7 @@ for i in range(n):
     val = 0 if i % 2 == 0 else 1
     for index in range(n):
         matrice[i][index] = val
-        if val == 0: 
-            val = 1
-        else:
-            val = 0
+        val = 1 if val == 0 else 0
             
 
 stampa_matrice(matrice)
