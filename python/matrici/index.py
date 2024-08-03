@@ -17,6 +17,9 @@ def stampa_matrice(matrice):
     for i in range(0, len(matrice)):
         print(matrice[i])
 
+def generate_row(start_val, length):
+    return [start_val if i % 2 == 0 else 1 - start_val for i in range(length)]
+
 # ESERCIZIO MATRICE
 
 n = int(input("\ninserire lato matrice: "))
@@ -88,6 +91,19 @@ for i in range(n):
     for index in range(n):
         matrice[i][index] = val
         val = 1 if val == 0 else 0
-            
 
+stampa_matrice(matrice)
+
+print("\n############# GHE SBORO #############")
+
+print("\n---ESERCIZIO 2.3.1---")
+
+matrice = [generate_row(0 if i % 2 == 0 else 1, n) for i in range(n)]
+stampa_matrice(matrice)
+
+print("\n############# GHE SBORO #############")
+
+print("\n---ESERCIZIO 2.3.2---")
+
+matrice = [[(i + j) % 2 for i in range(n)] for j in range(n)]
 stampa_matrice(matrice)
