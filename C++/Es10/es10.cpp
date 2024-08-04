@@ -1,5 +1,7 @@
 #include<iostream>
 
+// dati in input ore, minuti e secondi, calcolarne il tempo totale in secondi
+
 int main() {
     const int BASE_60 = 60; 
     int hour, minutes, seconds, totSec;
