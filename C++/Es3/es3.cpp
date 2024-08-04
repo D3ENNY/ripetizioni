@@ -1,6 +1,8 @@
  #include<iostream>
  #include<format>
 
+// calcolare perimetro ed area di un triangolo
+
  int main() {
     int larghezza, altezza, area, perimetro;
 

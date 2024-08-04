@@ -1,5 +1,7 @@
 #include<iostream>
 
+// dire se un numero preso in input è un numero perfetto
+
 int main() {
     int n, sum = 0;
     std::cout << "inserire un numero positivo in input: ";

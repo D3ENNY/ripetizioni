@@ -1,5 +1,7 @@
 #include<iostream>
 
+// giocare con input, output e con i tipi della variabili
+
 int main() {
     std::cout << "Parte 1" << std::endl;
     int n = 5;

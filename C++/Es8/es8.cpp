@@ -1,5 +1,7 @@
 #include<iostream>
 
+// dati due numeri in input, stamparli in ordine crescente
+
 int main() {
     int a, b;
 

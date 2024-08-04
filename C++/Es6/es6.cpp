@@ -1,5 +1,7 @@
 #include<iostream>
 
+// stampa la media di tre numeri
+
 int main(){
     int a,b,c,avg;
 
