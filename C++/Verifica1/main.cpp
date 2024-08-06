@@ -96,6 +96,8 @@ int main() {
     std::cout << "inserire un numero n" << std::endl;
     std::cin >> number;
 
+    //questo controllo lo ho fatto solo per scrupolo, non era richiesto nella richiesta del programma, 
+    //ma è per evitare che l'utente possa inserire qualcosa che non sia un numero
     if(!isInteger(number)){
         std::cout << "l'input non è un numero" << std::endl;
         return 1;
@@ -106,7 +108,7 @@ int main() {
 
     for(int i=number.length(); i>=0 ; i--)
         reverse2 += number[i];
-        
+
     std::cout << "Metodo 2) Il numero " << number << " scritto al contrario è: " << reverse2 << std::endl;
 
     return 0;
