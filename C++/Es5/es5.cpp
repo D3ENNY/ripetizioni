@@ -1,6 +1,6 @@
 #include<iostream>
 
-// dato un intervallo A-B dire se ci sono più numeri positivi o negativi
+// dato un intervallo A-B dire se ci sono più numeri pari o dispari
 
 int main(){
     int a,b, even = 0, shots = 0;
