@@ -9,7 +9,7 @@ int main() {
 
     for (int i=1; i<=n/2; i++)
         if (n % i == 0)
-            sum += i;
+            sum += i; //sum  = sum + i
 
     if(sum == n)
         std::cout << "il numero " << n << " è un numero perfetto" << std::endl;
