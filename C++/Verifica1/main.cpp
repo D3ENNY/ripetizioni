@@ -7,7 +7,13 @@ bool isInteger(const std::string& number){
 
     int start = (number[0] == '+' || number[0] == '-') ? 1 : 0;
 
-    for(int i=start; i<number.length(); i++)
+    // if(number[0] == '+' || number[0] == '-'){
+    //     start = 1;
+    // }else {
+    //     start = 0;
+    // }
+
+    for(int i=start; i<number.length(); i++) //+45874
         if (!isdigit(number[i]))
             return false;
 
@@ -74,7 +80,7 @@ int main() {
         std::cout << "\nInserire un numero che termina per 0;\nSrivere il numero \'0\' se vuoi finire la sequenza: ";
         std::cin >> num;
 
-        if(num <= x && num % 2 == 0 && num % 10 == 0)
+        if(num <= x && num % 10 == 0 && num % 2 == 0)
             tot += num;
 
     }while(num != 0);
