@@ -1,4 +1,5 @@
 #include <iostream>
+#include<cmath>
 
 //dati in input 3 numeri, stampi la somma dei quadrati dei due minori
 
@@ -20,7 +21,7 @@ int main() {
         min2 = b;
     }
 
-    int somma = (min1^2) + (min2^2);
+    int somma = pow(min1, 2) + pow(min2, 2);
 
     std::cout << "La somma del quadrato dei due numeri minori è: " << somma << std::endl;
 }
