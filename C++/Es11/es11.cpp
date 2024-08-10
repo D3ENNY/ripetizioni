@@ -37,9 +37,9 @@ return (triangle[0] == triangle[1]) ||
  *
 */
 bool rectangle(int triangle[3]){
-    return (std::pow(triangle[0]) + std::pow(triangle[1]) == std::pow(triangle[2])) &&
-           (std::pow(triangle[0]) + std::pow(triangle[2]) == std::pow(triangle[1])) &&
-           (std::pow(triangle[1]) + std::pow(triangle[2]) == std::pow(triangle[0]));
+    return (pow(triangle[0], 2) + pow(triangle[1], 2) == pow(triangle[2], 2)) &&
+           (pow(triangle[0], 2) + pow(triangle[2], 2) == pow(triangle[1], 2)) &&
+           (pow(triangle[1], 2) + pow(triangle[2], 2) == pow(triangle[0], 2));
 }
 
 /**
