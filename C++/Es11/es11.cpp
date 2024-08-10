@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 
 //fare un programma che calcoli se un triangolo è reale, scaleno, equilatero, isoscele, rettangolo,
 
@@ -36,9 +37,9 @@ return (triangle[0] == triangle[1]) ||
  *
 */
 bool rectangle(int triangle[3]){
-    return (triangle[0]^2 + triangle[1]^2 == triangle[2]^2) &&
-           (triangle[0]^2 + triangle[2]^2 == triangle[1]^2) &&
-           (triangle[1]^2 + triangle[2]^2 == triangle[0]^2);
+    return (std::pow(triangle[0]) + std::pow(triangle[1]) == std::pow(triangle[2])) &&
+           (std::pow(triangle[0]) + std::pow(triangle[2]) == std::pow(triangle[1])) &&
+           (std::pow(triangle[1]) + std::pow(triangle[2]) == std::pow(triangle[0]));
 }
 
 /**
