@@ -1,5 +1,7 @@
 #include<iostream>
 
+// dato in input il numero del mese, stampari quanti giorni ha
+
 int main() {
     int month;
 
