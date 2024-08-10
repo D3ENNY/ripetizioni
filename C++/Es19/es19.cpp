@@ -11,6 +11,7 @@ int main(){
     for (int i=0; i<n; i++){
         std::cout << "\nInserire un numero: ";
         std::cin >> val;
+
         if(val%2!=0)
             sum += val;
     }

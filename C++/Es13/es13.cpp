@@ -9,6 +9,7 @@ int main() {
     std::cin >> month;
 
     std::cout << "il mese " << month << " ha giorni: ";
+
     switch(month){
         case 1:
             std::cout << 31;
