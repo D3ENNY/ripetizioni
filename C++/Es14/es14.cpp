@@ -1,5 +1,7 @@
 #include <iostream>
 
+// scontare del 20% il prezzo totale, solo se supera i 100€ e stamparne il risultato
+
 int main() {
     double tot, endPrice;
 
