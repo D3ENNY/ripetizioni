@@ -1,4 +1,5 @@
 #include<iostream>
+#include<cmath>
 
 // dati in input ore, minuti e secondi, calcolarne il tempo totale in secondi
 
@@ -15,7 +16,7 @@ int main() {
 
     // sappiamo che in un ora sono presenti 3600 secondi
     // sappiamo che in un minuto sono presenti 60 secondi
-    totSec = (hour * BASE_60^2) + (minutes * BASE_60) + seconds;
+    totSec = (hour * pow(BASE_60, 2)) + (minutes * BASE_60) + seconds;
 
     std::cout << "il totale dei secondi sono: " << totSec << std::endl;
 }
