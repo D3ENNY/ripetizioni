@@ -3,7 +3,7 @@
 #include<ctime>
 #include <iomanip> 
 
-// dato un vettore di 7 element casuali generati tra 0 e 20, ricavare il massimo valore e la sua posizione e la media con la virgola
+// dato un vettore di 7 elementi casuali generati tra 0 e 20, ricavare il massimo valore e la sua posizione e la media con la virgola
 
 // Funzione per stampare un array
 void printArray(int arr[], int size) {
@@ -36,6 +36,7 @@ float averange(const int arr[], int size){
 int main(){
     const int SIZE = 7;
     int arr[SIZE];
+
     int max, maxPos;
 
     srand(time(NULL));
