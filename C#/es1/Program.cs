@@ -99,7 +99,7 @@ class Program
 
                 Console.WriteLine();
 
-            }   while (scelta != 0);
+            } while (scelta != 0);
 
                Console.WriteLine("Sei uscito dal programma");
         }
