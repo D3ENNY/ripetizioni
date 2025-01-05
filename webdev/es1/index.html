@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="it-IT">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="./assets/style.css">
+
+        <title>Titolo di test</title>
+    </head>
+
+    <script>
+
+        function sendData(){
+
+            let name = document.getElementById("name").value
+            let surname = document.getElementById("surname").value
+            let id = document.getElementById("number").value * 1
+
+            let output = document.getElementById("output")
+
+            let student = {
+                name: name,
+                surname: surname,
+                number: id,
+            }
+
+            console.log(student)
+
+            if(student.number >= 1000 ) {
+                output.style.color = "red"
+            }else{
+                output.style.color = "white";
+            }
+
+            output.innerHTML = "name: " + student.name + "<br/>Surname: " + student.surname + "<br/>matricle id: " + student.number
+        }
+
+    </script>
+
+    <body>
+
+        <h1>Titolo</h1>
+
+        <input type="text" class="input" id="name">
+        <input type="text" class="input" id="surname">
+        <input type="number" class="input" id="number">
+
+        <button onclick="sendData()">Invio dati</button>
+
+        <p id="output"></p>
+
+    </body>
+</html>

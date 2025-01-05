@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+html{
+    color: #fff;
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    font-variation-settings:
+      "ROND" 0;
+}
+
+body {
+    background-color: #000c2a;
+}
+
+.input {
+    height: 30px;
+    width:  100px;
+}
+
+input#number {
+    width: 60px !important;
+}
+
+button {
+    border-radius:5em;
+    height: 30px;
+    width:  100px;
+    background-color: aqua;
+    box-shadow: 2px 2px #ff0000;
+}
+
+body > input:nth-child(3) {
+    background-color: blueviolet;
+}

@@ -1,5 +1,17 @@
-venv/
-venv
+# VSCODE
 .vscode/
 .vscode
+
+# PYTHON
+venv/
+venv
 __pycache__
+
+#C#
+bin/
+obj/
+
+#Java
+bin/
+lib/
+*.class
