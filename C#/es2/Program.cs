@@ -206,5 +206,6 @@ class Program
             risultato[i * 2 + 1] = array2[array2.Length - 1 - i];
         }
         return risultato;
+
     }
 }
