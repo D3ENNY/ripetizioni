@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ereditarietà/ereditarietà.iml" filepath="$PROJECT_DIR$/ereditarietà/ereditarietà.iml" />
+      <module fileurl="file://$PROJECT_DIR$/esercizi basilari 1/esercizi basilari 1.iml" filepath="$PROJECT_DIR$/esercizi basilari 1/esercizi basilari 1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/java.iml" filepath="$PROJECT_DIR$/.idea/java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/polimorfismo/polimorfismo.iml" filepath="$PROJECT_DIR$/polimorfismo/polimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prova esame/prova esame.iml" filepath="$PROJECT_DIR$/prova esame/prova esame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ricorsione/ricorsione.iml" filepath="$PROJECT_DIR$/ricorsione/ricorsione.iml" />
+    </modules>
+  </component>
+</project>
