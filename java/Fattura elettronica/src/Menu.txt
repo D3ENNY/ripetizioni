@@ -1,8 +1,0 @@
-cappuccino: 1.30€
-caffè: 1.00€
-brioches: 0.80€
-brioches_marmellata: 1.00€
-cioccolata: 1,50€
-spremuta: 1,40€
-toast: 1,70€
-panino a scleta con affettato: 3,50€
