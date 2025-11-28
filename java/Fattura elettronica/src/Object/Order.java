@@ -16,11 +16,19 @@ public class Order {
 
     @Override
     public String toString() {
-        return """
-                ============
-                *  ordine  *
-                ============
-                
-                """;
+        StringBuilder sb = new StringBuilder();
+
+        sb.append("Order:\n");
+
+        items.forEach(d ->
+                sb.append("- ")
+                        .append(d.getName())
+                        .append(": ")
+                        .append(String.format("%.2f", d.getPrice()))
+                        .append("€: ")
+                        .append("\n")
+        );
+
+        return sb.toString();
     }
 }
